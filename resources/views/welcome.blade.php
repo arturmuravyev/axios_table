@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <!-- Styles -->
         <style>
@@ -24,8 +25,8 @@
         <div class="relative flex items-top justify-center bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             <h1>Vue Ajax Table</h1>
         </div>
-        <div id="app">
-            <front-page></front-page>
+        <div id="app" class="m-5">
+            <front-page :apidata="{{json_encode($data)}}"></front-page>
         </div>
     </body>
 </html>

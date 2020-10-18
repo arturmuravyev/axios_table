@@ -154,6 +154,7 @@
     <option name="myCommands">
       <command value="npm install" />
       <command value="php artisan serve" />
+      <command value="php artisan make:controller TableController" />
     </option>
   </component>
   <component name="RunManager">
@@ -171,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602943992703</updated>
       <workItem from="1602943993952" duration="825000" />
-      <workItem from="1603018490759" duration="6345000" />
+      <workItem from="1603018490759" duration="10617000" />
     </task>
     <servers />
   </component>
@@ -199,9 +200,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602947976593" />
-    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1602947986590">
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1603033689702">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602947986590" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603033689702" />
   </component>
 </project>
