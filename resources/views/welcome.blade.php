@@ -22,11 +22,11 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        <div class="relative flex items-top justify-center bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0 mt p-3">
             <h1>Vue Ajax Table</h1>
         </div>
         <div id="app" class="m-5">
-            <front-page :apidata="{{json_encode($data)}}"></front-page>
+            <front-page :apidata="{{json_encode($data)}}" ></front-page>
         </div>
     </body>
 </html>

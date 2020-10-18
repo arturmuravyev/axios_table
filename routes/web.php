@@ -14,3 +14,4 @@ use App\Http\Controllers\TableController;
 */
 
 Route::get('/', [TableController::class, 'getData']);
+
